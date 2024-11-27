@@ -4,6 +4,8 @@ The project was entirely implemented using MSSQL Server, and ofcourse the SQL la
 
 In short, there are multiple .sql files divided by their content.
 
+The files should be executed in the following order: DDL -> TRIGGER -> INSERT -> The order doesn't matter onwards.
+
 **DDL.sql** for DATA DEFINITION, as in to create the needed tables with requested constraints.
 
 **INSERT.sql** for storing test data, in order to test the realization of the project.
